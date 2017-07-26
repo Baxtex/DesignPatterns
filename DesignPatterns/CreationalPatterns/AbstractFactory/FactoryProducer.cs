@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DesignPatterns.CreationalPatterns.AbstractFactory
+﻿namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    class FactoryProducer
+    internal class FactoryProducer
     {
         public static AbstractFactory GetFactory(string choice)
         {

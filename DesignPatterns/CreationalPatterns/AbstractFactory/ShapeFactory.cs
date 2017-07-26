@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DesignPatterns.Factory;
-
-namespace DesignPatterns.CreationalPatterns.AbstractFactory
+﻿namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
     internal class ShapeFactory : AbstractFactory
     {

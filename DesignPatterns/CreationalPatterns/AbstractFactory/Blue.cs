@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    class Blue : IColor
+    internal class Blue : IColor
     {
         public void Fill()
         {

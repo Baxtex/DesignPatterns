@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DesignPatterns.Factory;
-
-namespace DesignPatterns.CreationalPatterns.AbstractFactory
+﻿namespace DesignPatterns.CreationalPatterns.AbstractFactory
 {
-    class ColorFactory : AbstractFactory
+    internal class ColorFactory : AbstractFactory
     {
         internal override IColor GetColor(string colorType)
         {
