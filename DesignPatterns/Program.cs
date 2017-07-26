@@ -1,4 +1,5 @@
 ﻿using DesignPatterns.CreationalPatterns.AbstractFactory;
+using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.Factory;
 using System;
@@ -46,6 +47,12 @@ namespace DesignPatterns
              * encapsulated code.
              */
             new TestSingleton();
+
+
+            /*
+             * 
+             */
+            new TestBuilder();
 
             Console.ReadKey();
         }
