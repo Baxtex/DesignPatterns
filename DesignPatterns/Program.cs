@@ -2,6 +2,7 @@
 using DesignPatterns.CreationalPatterns.Builder;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.Factory;
+using DesignPatterns.Others.MVC;
 using System;
 
 namespace DesignPatterns
@@ -48,11 +49,20 @@ namespace DesignPatterns
              */
             new TestSingleton();
 
-
             /*
-             * 
+             *The Builder pattern is great when you need a object that has optional properties. In this example
+             * I am building a Nutrition facts label for a food item. It's easer to write, read and use instead for, for example
+             * many different constructors. The object is immutable.
              */
             new TestBuilder();
+
+            /*
+             * Model View Controller or MVC for short is a common design and/or architectural pattern most used for GUI interfaces.
+             * It works by dividing and decoupling different tasks between different modules. Model is the data, say a Person objec.t
+             * View is the actual thing that the user sees and Controller is what, Controls it all. A user uses the Controller which manipulates
+             * the Model which updates the View that the User sees.
+             */
+            new TestModelViewController();
 
             Console.ReadKey();
         }

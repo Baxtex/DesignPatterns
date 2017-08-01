@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace DesignPatterns.CreationalPatterns.Builder
 {
     internal class TestBuilder
     {
-   
-    public TestBuilder()
+        public TestBuilder()
         {
             Console.WriteLine("--Test Builder start--");
 
@@ -19,6 +16,5 @@ namespace DesignPatterns.CreationalPatterns.Builder
 
             Console.WriteLine("--Test Builder end--");
         }
-
     }
 }
