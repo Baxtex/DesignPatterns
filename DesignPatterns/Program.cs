@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.CreationalPatterns.AbstractFactory;
 using DesignPatterns.CreationalPatterns.Builder;
+using DesignPatterns.CreationalPatterns.Prototype;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.Factory;
 using DesignPatterns.Others.MVC;
@@ -50,11 +51,16 @@ namespace DesignPatterns
             new TestSingleton();
 
             /*
-             *The Builder pattern is great when you need a object that has optional properties. In this example
+             * The Builder pattern is great when you need a object that has optional properties. In this example
              * I am building a Nutrition facts label for a food item. It's easer to write, read and use instead for, for example
              * many different constructors. The object is immutable.
              */
             new TestBuilder();
+
+            /* The Prototype pattern creates duplicate objects by using the Clone method. Can be more lightweight when creating
+             * new objects. 
+             */
+            new TestPrototype();
 
             /*
              * Model View Controller or MVC for short is a common design and/or architectural pattern most used for GUI interfaces.
