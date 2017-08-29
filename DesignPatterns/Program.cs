@@ -4,6 +4,7 @@ using DesignPatterns.CreationalPatterns.Prototype;
 using DesignPatterns.CreationalPatterns.Singleton;
 using DesignPatterns.Factory;
 using DesignPatterns.Others.MVC;
+using DesignPatterns.StructuralPatterns.Adapter;
 using System;
 
 namespace DesignPatterns
@@ -61,6 +62,12 @@ namespace DesignPatterns
              * new objects. 
              */
             new TestPrototype();
+
+            /*
+             * The adapter pattern is useful when we need a adapter between to components. A use case is when you have two incompatible interfaces.
+             * The idea is that the adapter class implements one of the interfaces and uses a concrete implementation of the other.
+             */
+            new TestAdapter();
 
             /*
              * Model View Controller or MVC for short is a common design and/or architectural pattern most used for GUI interfaces.
